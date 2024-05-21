@@ -1,0 +1,15 @@
+:root body, :root button, :root input, :root select, :root textarea{
+    --f-ext: "gg sans", roboto, sans-serif;
+    font-family: var(--f-ext);
+}
+body, button, input, select, textarea {
+    font-family: var(--f-ext);
+}
+:lang(ja), :lang(en) {
+    --font-japanese: var(--f-ext) !important;
+    --font-display: var(--f-ext) !important;
+    --font-primary: var(--f-ext) !important;
+}
+.r-1tl8opc, .c-container, .main-header {
+	font-family: var(--f-ext) !important;
+}

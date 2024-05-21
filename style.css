@@ -1,0 +1,6 @@
+* {
+    font-family: "gg sans", roboto, sans-serif;
+}
+code *, pre * {
+    font-family: consolas, monospace;
+}

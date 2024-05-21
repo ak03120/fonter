@@ -1,0 +1,10 @@
+{
+    "name": "ふぉんたー",
+    "version": "0.0.0.1",
+    "host_permissions": ["<all_urls>"],
+    "content_scripts": [{
+        "css": ["custom.css"],
+        "matches": ["<all_urls>"]
+    }],
+    "manifest_version": 3
+}
