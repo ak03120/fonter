@@ -10,6 +10,15 @@ body, button, input, select, textarea {
     --font-display: var(--f-ext) !important;
     --font-primary: var(--f-ext) !important;
 }
-.r-1tl8opc, .c-container, .main-header {
+.r-1tl8opc, .main-header, .header-notification-box, .mectrl_root *, .ms-Layer {
 	font-family: var(--f-ext) !important;
+}
+.hls-player_message, .hls-player--menunav {
+    display: none;
+}
+.hls-player_controller {
+    background-color: rgba(0,0,0,0)!important;
+}
+.hls-player_controller.show[data-v-bdbfb9b4] {
+    background-color: rgba(0,0,0,0);
 }
