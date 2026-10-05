@@ -1,13 +1,15 @@
-*:not(
-  [class*="material-icons"],
-  [class*="material-symbols"],
-  [class*="google-symbols"],
-  [class*="google-material-icons"],
-  [data-icon-name],
-  [class*="ms-Icon"],
-  [class*="fui-Icon"],
-  [class*="win-icon"],
-  [aria-hidden="true"]
-) {
-  font-family: "Comic Sans MS", "Kiwi Maru" !important;
+@layer fonter {
+  *:not(
+    [class*="material-icons"],
+    [class*="material-symbols"],
+    [class*="google-symbols"],
+    [class*="google-material-icons"],
+    [data-icon-name],
+    [class*="ms-Icon"],
+    [class*="fui-Icon"],
+    [class*="win-icon"],
+    [aria-hidden="true"]
+  ) {
+    font-family: "Comic Sans MS", "Kiwi Maru" !important;
+  }
 }
