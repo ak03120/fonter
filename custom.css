@@ -1,24 +1,13 @@
-:root body, :root button, :root input, :root select, :root textarea{
-    --f-ext: "gg sans", roboto, system-ui;
-    font-family: var(--f-ext);
-}
-body, button, input, select, textarea {
-    font-family: var(--f-ext);
-}
-:lang(ja), :lang(en) {
-    --font-japanese: var(--f-ext) !important;
-    --font-display: var(--f-ext) !important;
-    --font-primary: var(--f-ext) !important;
-}
-.r-1tl8opc, .main-header, .header-notification-box, .mectrl_root *, .ms-Layer {
-	font-family: var(--f-ext) !important;
-}
-.hls-player_message, .hls-player--menunav {
-    display: none;
-}
-.hls-player_controller {
-    background-color: rgba(0,0,0,0)!important;
-}
-.hls-player_controller.show[data-v-bdbfb9b4] {
-    background-color: rgba(0,0,0,0);
+*:not(
+  [class*="material-icons"],
+  [class*="material-symbols"],
+  [class*="google-symbols"],
+  [class*="google-material-icons"],
+  [data-icon-name],
+  [class*="ms-Icon"],
+  [class*="fui-Icon"],
+  [class*="win-icon"],
+  [aria-hidden="true"]
+) {
+  font-family: "Comic Sans MS", "Kiwi Maru" !important;
 }
