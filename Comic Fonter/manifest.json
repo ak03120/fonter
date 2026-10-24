@@ -1,0 +1,10 @@
+{
+    "name": "Comic Fonter",
+    "version": "0.0.4",
+    "icons": { "128": "comic.png" },
+    "content_scripts": [{
+        "css": ["comic.css"],
+        "matches": ["<all_urls>"]
+    }],
+    "manifest_version": 3
+}

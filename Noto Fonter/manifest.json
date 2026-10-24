@@ -1,8 +1,9 @@
 {
-    "name": "Comic Fonter",
+    "name": "Noto Fonter",
     "version": "0.0.4",
+    "icons": { "128": "tofu.png" },
     "content_scripts": [{
-        "css": ["comic.css"],
+        "css": ["noto.css"],
         "matches": ["<all_urls>"]
     }],
     "manifest_version": 3
