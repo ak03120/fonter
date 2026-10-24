@@ -1,3 +1,9 @@
+@font-face {
+  font-family: "Noto Fonter Sans JP";
+  src: url("chrome-extension://__MSG_@@extension_id__/fonts/NotoSansJP.woff2");
+  font-weight: 100 900;
+}
+
 *:not(
   [class*="material-icons"],
   [class*="material-symbols"],
@@ -9,5 +15,5 @@
   [class*="win-icon"],
   [aria-hidden="true"]
 ) {
-  font-family: "Noto Sans JP", sans-serif !important;
+  font-family: "Noto Fonter Sans JP", sans-serif !important;
 }

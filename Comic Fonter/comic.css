@@ -1,3 +1,21 @@
+@font-face {
+  font-family: "Comic Fonter Kiwi Maru";
+  src: local("Kiwi Maru Light"), local("KiwiMaru-Light"), url("chrome-extension://__MSG_@@extension_id__/fonts/KiwiMaru-Light.woff2");
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: "Comic Fonter Kiwi Maru";
+  src: local("Kiwi Maru Regular"), local("KiwiMaru-Regular"), url("chrome-extension://__MSG_@@extension_id__/fonts/KiwiMaru-Regular.woff2");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Comic Fonter Kiwi Maru";
+  src: local("Kiwi Maru Medium"), local("KiwiMaru-Medium"), url("chrome-extension://__MSG_@@extension_id__/fonts/KiwiMaru-Medium.woff2");
+  font-weight: 500;
+}
+
 *:not(
   [class*="material-icons"],
   [class*="material-symbols"],
@@ -9,5 +27,5 @@
   [class*="win-icon"],
   [aria-hidden="true"]
 ) {
-  font-family: "Comic Sans MS", "Kiwi Maru" !important;
+  font-family: "Comic Sans MS", "Comic Fonter Kiwi Maru" !important;
 }
