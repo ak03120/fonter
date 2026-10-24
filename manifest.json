@@ -1,9 +1,8 @@
 {
-    "name": "ふぉんたー",
-    "version": "0.0.1",
-    "host_permissions": ["<all_urls>"],
+    "name": "Comic Fonter",
+    "version": "0.0.4",
     "content_scripts": [{
-        "css": ["custom.css"],
+        "css": ["comic.css"],
         "matches": ["<all_urls>"]
     }],
     "manifest_version": 3

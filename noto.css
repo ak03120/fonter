@@ -1,0 +1,13 @@
+*:not(
+  [class*="material-icons"],
+  [class*="material-symbols"],
+  [class*="google-symbols"],
+  [class*="google-material-icons"],
+  [data-icon-name],
+  [class*="ms-Icon"],
+  [class*="fui-Icon"],
+  [class*="win-icon"],
+  [aria-hidden="true"]
+) {
+  font-family: "Noto Sans JP", sans-serif !important;
+}
