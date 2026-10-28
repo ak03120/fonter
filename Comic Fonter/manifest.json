@@ -1,6 +1,7 @@
 {
     "name": "Comic Fonter",
     "version": "0.0.4",
+    "description": "ウェブページのフォントを Comic Sans 風にします",
     "icons": { "128": "comic.png" },
     "permissions": ["fontSettings"],
     "background": { "service_worker": "background.js" },
