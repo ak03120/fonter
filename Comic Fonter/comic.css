@@ -16,6 +16,18 @@
   font-weight: 500;
 }
 
+@font-face {
+  font-family: "Comic Fonter Comic Neue";
+  src: local("Comic Neue Regular"), local("ComicNeue-Regular"), url("chrome-extension://__MSG_@@extension_id__/fonts/ComicNeue-Regular.woff2");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Comic Fonter Comic Neue";
+  src: local("Comic Neue Bold"), local("ComicNeue-Bold"), url("chrome-extension://__MSG_@@extension_id__/fonts/ComicNeue-Bold.woff2");
+  font-weight: 700;
+}
+
 *:not(
   [class*="material-icons"],
   [class*="material-symbols"],
@@ -27,5 +39,5 @@
   [class*="win-icon"],
   [aria-hidden="true"]
 ) {
-  font-family: "Comic Sans MS", "Comic Fonter Kiwi Maru" !important;
+  font-family: "Comic Sans MS", "Comic Fonter Comic Neue", "Comic Fonter Kiwi Maru" !important;
 }

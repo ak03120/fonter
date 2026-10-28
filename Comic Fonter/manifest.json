@@ -6,6 +6,8 @@
     "background": { "service_worker": "background.js" },
     "content_scripts": [{
         "css": ["comic.css"],
+        "js": ["fonts.js"],
+        "run_at": "document_start",
         "matches": ["<all_urls>"]
     }],
     "web_accessible_resources": [{
