@@ -1,6 +1,6 @@
 {
     "name": "Noto Fonter",
-    "version": "0.0.4",
+    "version": "0.0.5",
     "icons": { "128": "tofu.png" },
     "permissions": ["fontSettings"],
     "background": { "service_worker": "background.js" },

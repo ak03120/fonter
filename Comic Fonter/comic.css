@@ -31,9 +31,8 @@
 *:not(
   [class*="icon" i],
   [class*="symbols" i],
-  [class*="zmdi"],
-  [class*="l-i-"],
   [data-icon-name],
+  [data-fonter-icon],
   [aria-hidden="true"]
 ) {
   font-family: "Comic Sans MS", "Comic Fonter Comic Neue", "Comic Fonter Kiwi Maru" !important;
