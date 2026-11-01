@@ -5,14 +5,12 @@
 }
 
 *:not(
-  [class*="material-icons"],
+  [class*="icon" i],
   [class*="material-symbols"],
   [class*="google-symbols"],
-  [class*="google-material-icons"],
+  [class*="zmdi"],
+  [class*="l-i-"],
   [data-icon-name],
-  [class*="ms-Icon"],
-  [class*="fui-Icon"],
-  [class*="win-icon"],
   [aria-hidden="true"]
 ) {
   font-family: "Noto Fonter Sans JP", sans-serif !important;
