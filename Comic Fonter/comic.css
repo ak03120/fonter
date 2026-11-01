@@ -30,8 +30,7 @@
 
 *:not(
   [class*="icon" i],
-  [class*="material-symbols"],
-  [class*="google-symbols"],
+  [class*="symbols" i],
   [class*="zmdi"],
   [class*="l-i-"],
   [data-icon-name],
